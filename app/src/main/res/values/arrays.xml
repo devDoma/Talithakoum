@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="habit_target">
+        <item>체크박스</item>
+        <item>숫자</item>
+    </string-array>
+    <string-array name="habit_frequency">
+        <item>매일</item>
+        <item>주 5회</item>
+        <item>주 3회</item>
+        <item>주 1회</item>
+    </string-array>
+
+
+</resources>
+
+
+
