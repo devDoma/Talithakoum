@@ -31,11 +31,12 @@ public class FirstFragment extends Fragment
     {
         final LinearLayout layout = (LinearLayout) inflater.inflate(R.layout.fragment_first, container, false);
 
-        ImageButton imageButton = (ImageButton) layout.findViewById(R.id.imageButton_to_add_habit);
-        imageButton.setOnClickListener(new View.OnClickListener() {
+        Button button = (Button) layout.findViewById(R.id.Button_to_add_habit);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(layout.getContext(), add_bigHabit.class);
+                Intent intent = new Intent(layout.getContext(), showHowTo.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
                 startActivity(intent);
             }
         });
