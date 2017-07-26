@@ -2,4 +2,5 @@
     <string name="app_name">Talithakoum</string>
     <string name="title_activity_login">login</string>
     <string name="facebook_app_id">125669944656716</string>
+    <string name="nickname">Nickname</string>
 </resources>

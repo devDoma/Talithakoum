@@ -35,7 +35,7 @@ public class AlarmOrganizer {
 
     void setAlarm(String alarm_name, String alarm_content, int alarm_ex_day,
                   int hour, int minute) {
-//평범한 객체를 어레이리스트에 추가하는 메소드.
+// 객체를 어레이리스트에 추가하는 메소드.
 
         data_alarm dataAlarm = new data_alarm();
 

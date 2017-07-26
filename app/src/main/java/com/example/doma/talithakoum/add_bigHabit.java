@@ -35,7 +35,6 @@ public class add_bigHabit extends AppCompatActivity {
         final EditText editText_name =(EditText) findViewById(R.id.editText_addh_name);
 
 
-
         ImageButton imageButton_next =(ImageButton) findViewById(R.id.imageButton_addbh_next);
         imageButton_next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,9 +44,19 @@ public class add_bigHabit extends AppCompatActivity {
             }
         });
 
-
+        switchVisibility(editText_name);
+        switchVisibility(imageButton_next);
 
     }
+
+    public void switchVisibility(View view){
+        if(view.getVisibility() == View.VISIBLE){
+        view.setVisibility(View.INVISIBLE);}else{
+            view.setVisibility(View.VISIBLE);
+        }
+
+    }
+
 
 
 
